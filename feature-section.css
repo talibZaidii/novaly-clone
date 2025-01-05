@@ -1,0 +1,72 @@
+.feature-main {
+  background-color: rgb(255, 255, 255);
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.feature {
+  padding-top: 110px;
+
+  padding-left: 400px;
+  height: 700px;
+  display: flex;
+  flex-direction: row;
+}
+
+.weight400 {
+  font-weight: 400;
+}
+
+.feature-title {
+  line-height: 48px;
+  font-size: 42px;
+  color: #151a33;
+  margin-bottom: 70px;
+  margin-top: 40px;
+  margin-left: 40px;
+}
+
+.h5heading {
+  color: #0c59db;
+  font-size: 18px;
+  line-height: 24px;
+  font-weight: 700;
+  margin-bottom: 50px;
+}
+
+.feature-container {
+  display: flex;
+  flex-direction: column;
+  align-items: baseline;
+}
+
+.feature-para {
+  margin-bottom: 50px;
+  line-height: 1.8em;
+  padding-right: 350px;
+  font-size: 16px;
+  color: #3e3e3e;
+}
+
+.signature img {
+  width: 125px;
+  margin-bottom: 25px;
+}
+
+.read-btn {
+  background: linear-gradient(45deg, #0e90d5, #3032a2);
+  color: white;
+  font-size: 18px;
+  padding: 20px 64px;
+  text-decoration: none;
+  border-radius: 5px;
+  font-weight: 900px;
+  text-transform: uppercase;
+  transition: box-shadow 0.4s ease-in-out;
+}
+
+.read-btn:hover {
+  box-shadow: 4px 4px 10px rgba(1, 73, 112, 0.25);
+}
